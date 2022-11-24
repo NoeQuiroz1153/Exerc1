@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exerc1.MainPage">
+
+    <StackLayout BackgroundColor="White" Spacing="5">
+        
+        <Frame HasShadow="True" CornerRadius="15">
+            <Entry x:Name ="num1" Placeholder="Ingrese El Primer Numero" Keyboard="Numeric" FontAttributes="Bold" PlaceholderColor="Black"></Entry>
+        </Frame>
+
+        <Frame HasShadow="True" CornerRadius="15">
+            <Entry x:Name ="num2" Placeholder="Ingrese El Segundo Numero" Keyboard="Numeric" FontAttributes="Bold" PlaceholderColor="Black"></Entry>
+        </Frame>
+        
+        <Button Text="Sumar" ContentLayout="Left,10" Image="sum.png"  HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" BackgroundColor="White" Margin="5,0,0,0" FontSize="Large" x:Name="Btnsumar" Clicked="Btnsumar_Clicked"/>
+        <Button Text="Restar" ContentLayout="Left,10" Image="resta.png"  HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" BackgroundColor="White" Margin="5,0,0,0" FontSize="Large" x:Name="Btnrestar" Clicked="Btnrestar_Clicked"/>
+        <Button Text="Multiplicar" ContentLayout="Left,10" Image="mult.png"  HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" BackgroundColor="White" Margin="60,0,0,0" FontSize="Large" x:Name="Btnmulti" Clicked="Btnmulti_Clicked"/>
+        <Button Text="Dividir" ContentLayout="Left,10" Image="divi.png"  HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" BackgroundColor="White" Margin="5,0,0,0" FontSize="Large" x:Name="Btndivir" Clicked="Btndivir_Clicked"/>
+
+
+
+    </StackLayout>
+
+</ContentPage>
